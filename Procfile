@@ -1,1 +1,1 @@
-web: node campuStudy1.js
+web: node server.js
