@@ -11,7 +11,7 @@ body
 {
 	position: relative;
 	background: none;
-	padding: 10px;
+	padding: 30px;
 	margin-bottom: 40px;
 	text-align: center;
 	background: #336699;
@@ -19,7 +19,7 @@ body
     border-style: solid;
     border-width: 10px;
     font-size:60px;
-    font-weight:200;
+    /*font-weight:200;*/
 
 }
 
@@ -61,7 +61,7 @@ body
 	 border-style: solid;
      border-width: 4px;
      position: relative;
-     width: 250px;
+     width: 100px;
      /*left: 500px;*/
      left: 20px;
      top: -20px;
@@ -85,16 +85,15 @@ body
     }
  
     .tab-links li {
-        margin:0px 10px;
-
+        margin:10px 10px;
         float:left;
         list-style:none;
-                background: white;
+        background: white;
 
     }
  
         .tab-links a {
-            padding:20px 20px;
+            padding:20px 30px;
             display:inline;
             border-radius:15px 15px 0px 0px;
  		    border-style: solid;
@@ -154,8 +153,8 @@ body
 	background: none;
 	padding: 10px;
 	text-align: center;
-    font-size:40px;
-    font-weight:400;
+    font-size:30px;
+    font-weight:200;
 
 }
 
