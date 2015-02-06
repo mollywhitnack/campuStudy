@@ -198,7 +198,7 @@ body
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-.sort ul li:hover {
+.sort ul li:active {
   background: #555;
   color: #fff;
 }
@@ -228,10 +228,12 @@ body
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
-.sort ul li ul li:hover 
-{ background: #666; }
+.sort ul li ul li:active 
+{ background: #666; 
+visibility: visible;
+}
 
-.sort ul li:hover ul {
+.sort ul li:active ul {
   display: block;
   opacity: 1;
   visibility: visible;
