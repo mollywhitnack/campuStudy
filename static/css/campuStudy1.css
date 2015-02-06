@@ -69,11 +69,6 @@ body
      
 }
 
-.settings{
-            font-size:30px;
-            font-weight:30;
-    
-}
 
 .tabs {
     width:100%;
@@ -150,6 +145,9 @@ body
 
         }
 
+
+
+
 .footer {
 	/*----- visibility:hidden; -----*/
 	position: fixed;
@@ -189,5 +187,119 @@ body
      color: #1f6ddd;
 }
 
+.banner{
+  background-color: white;
+    border-radius:15px 15px 0px 0px;
+    border-style: solid;
+    height: 110px;
 
+}
+
+/*outer box*/
+.sort ul {
+  text-align: left;
+  display: inline;
+  float: left;
+  margin: 0;
+  margin-left: 10%;
+  margin-top: 14px;
+  padding: 0px 5px 0px 0;
+  list-style: none;
+ /* border-radius:5px 5px px 0px;*/
+  /*border-style: solid;
+ /* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+}
+
+.sort ul li {
+  font: bold 40px/40px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.sort ul li:hover {
+  background: #555;
+  color: #fff;
+}
+
+/*drop box width*/
+.sort ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 68px;
+  left: 0px;
+  width: 220px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+.sort ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+.sort ul li ul li:hover 
+{ background: #666; }
+
+.sort ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.mapbutton{
+
+
+}
+
+.mapswitch {
+    /*----- visibility:hidden; -----*/
+    background: none;
+    padding: 5px;
+    text-align: left;
+    background-color: gray;
+    float: right;
+    
+    margin-top: 20px;
+    margin-right: 50%;
+    text-align: center;
+    font-size:10px;
+    font-weight:30; 
+}
+
+.mapswitch:after {
+     content:"";
+     background: #336699;
+     opacity: 1;
+     z-index: -1;   
+     /*border-radius:15px 15px 15px 15px;
+     border-style: solid;
+     border-width: 10px;   */
+}
+.mapswitch p {
+     color: #6e6e6e;
+
+}
+
+.mapswitch p.active {
+     color: #1f6ddd;
+}
 
