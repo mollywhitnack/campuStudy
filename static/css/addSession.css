@@ -1,0 +1,23 @@
+body 
+{ 
+	font-size: 80%; 
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
+}
+
+.backButton{
+
+    float: left;
+    height: 40%;
+    font-size: 40px;
+    padding: 10px;
+	background: #CADCDC;
+	border-style: solid;
+}
+
+.jumbotron{
+background-color: green;
+float: left;
+font-size: 80px;
+padding-left: 10%;
+padding-right: 10%;
+}
