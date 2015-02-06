@@ -1,0 +1,15 @@
+body 
+{ 
+	font-size: 80%; 
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
+}
+
+.backButton{
+
+    float: left;
+    height: 50%;
+    font-size: 40px;
+    padding: 40px;
+	background: #CADCDC;
+	border-style: solid;
+}
